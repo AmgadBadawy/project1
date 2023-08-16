@@ -1,0 +1,405 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* start google fonts */
+    @font-face {
+        font-family: oswald;
+        src: url(../fonts/Oswald-VariableFont_wght.ttf);
+    }
+    @font-face {
+        font-family: opensans;
+        src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+    }
+/* end google fonts */
+
+/* start nav */
+nav{
+    background-color: black;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 15px;
+    font-size: 15px;
+}
+nav a:hover{
+    background-color: #ccc;
+    color: black;
+}
+nav a:last-child{
+    float: right;
+}
+/* end nav */
+
+/* start textbox */
+#textbox{
+    text-align: center;
+    padding: 40px 0px;
+    font-family: oswald;
+}
+#textbox h1{
+    font-size: 3rem;
+}
+#textbox p{
+    font-size: 1rem;
+}
+#textbox span{
+    background-color: black;
+    padding: 0px 10px;
+    color: white;
+}
+/* end textbox */
+
+/* start header */
+header{
+    position: relative;
+}
+header #aboveimg{
+    position: absolute;
+    top: 40%;
+    left: 25px;
+    color: white;
+    font-family: oswald;
+}
+header #aboveimg h2{
+    font-size: 2rem;
+    line-height: 54px;
+    font-weight: 420;
+    letter-spacing: 3px;
+    font-size: 36px;
+}
+header #aboveimg h1{
+    font-size: 4rem;
+    line-height: 45px;
+    letter-spacing: 4px;
+}
+header #aboveimg button{
+    font-size: 1rem;
+    border: none;
+    padding: 15px 20px;
+    background-color: rgba(158,158,158,0.8);
+}
+header #aboveimg button:hover{
+    background-color: #cdcdc9;
+    color: #000;
+} 
+/* end header */
+
+/* start main */
+main{
+    background-color: #f1f1f1;
+}
+/* start leftside */
+main #leftside{
+    float: left;
+    width: 70%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+main #leftside article{
+    padding: 20px 30px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+main #leftside article .articletitle{
+    text-align: center;
+    font-family: oswald;
+    padding-bottom: 15px;
+    font-size: 1.3rem;
+}
+main #leftside article .articledesc{
+    text-align: center;
+    font-family: oswald;
+    padding-bottom: 25px;
+}
+main #leftside article .articledesc span{
+    color: silver;
+}
+main #leftside article .articlecontent{
+    font-family: opensans;
+    text-align: justify;
+    line-height: 23px;
+    font-size: 15px;
+}
+main #leftside article .articlecontent p{
+    padding: 20px 0px;
+}
+main #leftside article .articleb .leftb{
+    float: left;
+    background-color: white;
+    padding: 8px 13px;
+    border: 1px solid rgb(108, 106, 106);
+    font-weight: bold;
+}
+main #leftside article .articleb .leftb:hover{
+    background-color: silver;
+    border-color: silver;
+}
+main #leftside article .articleb .rightb{
+    float: right;
+    background-color: black;
+    color: white;
+    padding: 10px 8px;
+    border: black;
+    font-weight: bold;
+}
+main #leftside article .articleb .rightb:hover{
+    background-color: silver;
+    border: silver;
+    color: black;
+    font-weight: bold;
+}
+main #leftside article .articleb .rightb span{
+    background-color: white;
+    color: black;
+    padding: 0px 8px;
+}
+.hr{
+    border-bottom: 1px solid rgb(181, 181, 181);
+    padding: 20px 0px;
+}
+main #leftside article .articlefooter{
+    
+}
+main #leftside article .articlefooter .lefts{
+    float: left;
+    width: 15%;
+    padding: 10px;
+}
+main #leftside article .articlefooter .rights{
+    float: right;
+    width: 85%;
+    padding: 10px;
+}
+main #leftside article .articlefooter .rights p{
+    padding-bottom: 20px;
+    font-size: 1.1rem;
+}
+main #leftside article .articlefooter .rights p span{
+    color: silver;
+
+}
+/* end leftside */
+/* start rightside */
+main #rightside{
+
+}
+
+main #rightside{
+    float: right;
+    width: 30%;
+    background-color: #f1f1f1;
+    padding: 20px 0px;
+}
+main #rightside .rightintro{
+    filter: grayscale(70%);
+}
+main #rightside .rightintro p{
+    background-color: black;
+    color: white;
+    margin-top: -10px;
+    font-size: 15px;
+    font-family: opensans;
+    line-height: 23px;
+    padding: 5px 10px; 
+}
+main #rightside .rightsection{
+    margin: 25px 0px;
+}
+main #rightside .rightsection h3{
+    background-color: black;
+    color: white;
+    padding: 20px;   
+    font-family: oswald;
+    font-weight: normal;
+}
+main #rightside .rightsection .sectioncontent{
+    background-color: white;
+}
+/* posts */
+main #rightside .rightsection #posts{
+
+}
+main #rightside .rightsection #posts ul{
+    padding: 0px;
+    list-style-type: none;
+}
+main #rightside .rightsection #posts ul li{
+    padding: 10px;
+    border-top: 1px solid silver; 
+}
+main #rightside .rightsection #posts ul li  .leftpost{
+    float: left;
+    width: 15%;
+}
+main #rightside .rightsection #posts ul li  .rightpost{
+    float: right;
+    width: 85%;
+}
+main #rightside .rightsection #posts ul li  .rightpost p{
+    padding: 5px 10px;
+    font-family: opensans;
+}
+main #rightside .rightsection #posts ul li:hover{
+    background-color: silver;
+}
+main #rightside .rightsection #posts ul li  .leftpost .lastimg{
+    filter: sepia(75%);
+}
+/* advertise */
+main #rightside .rightsection #advertise{
+    padding: 20px;
+}
+main #rightside .rightsection #advertise section{
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 100px 0px;
+}
+/* tags */
+main #rightside .rightsection #tags{
+    padding: 10px 20px 30px;
+}
+main #rightside .rightsection #tags span{
+    display: inline-block;
+    background-color: silver;
+    padding: 0px 7px;
+    margin-top: 15px;
+    font-family: opensans;
+    font-size: 0.9rem;
+}
+main #rightside .rightsection #tags span:first-child{
+    background-color: black;
+    color: white;
+    padding: 3px 5px;
+}
+main #rightside .rightsection #Inspiration{
+
+}
+main #rightside .rightsection #Inspiration div{
+    width: 50%;
+    padding: 10px;
+    float: left;
+}
+.clear{
+    content: " ";
+    clear: both;
+}
+.rightsection h3{
+    font-family: oswald;
+    font-size: 20px;
+    line-height: 30px;
+
+
+    
+}
+.sectioncontent5_FollowMe{
+    background-color: white;
+    padding: 10px;
+
+}
+.sectioncontent5_FollowMe a{
+    color: black;
+    display: inline-block;
+    font-size: 23px;
+    padding: 5px;
+}
+.sectioncontent5_FollowMe a:hover{
+    color: #696868;
+}
+/* S Subscribe */
+
+.sectioncontent6_Subscribe{
+    background-color: white;
+    padding: 20px;
+
+}
+.sectioncontent6_Subscribe p{
+    font-family: OpenSans ;
+    font-size: 15PX;
+    line-height: 23PX;
+    margin-bottom: 13px;
+
+
+}
+.sectioncontent6_Subscribe input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+
+}
+.sectioncontent6_Subscribe button{
+    width: 100%;
+    background-color: orangered;
+    border: none;
+    padding: 10PX;
+    margin-bottom: 10px;
+    color: white;
+    
+
+
+}
+.sectioncontent6_Subscribe button:hover{
+    background-color: silver;
+    color: black;
+
+}
+/* end rightside */
+.clear{
+    content: " ";
+    clear: both;
+}
+/* end main */
+
+/* start footer */
+footer{
+    background-color: #616161;
+    padding: 70px;
+}
+
+footer > a{
+    background-color: #000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+}
+
+footer p{
+    padding-top: 25px;
+    font-size: 1.2rem;
+    color: white;
+}
+footer p a{
+    color: white;
+}
+/* end footer */
+
+/* media screen */
+@media screen and (max-width:800px){
+    header #abroveimg{
+        top: 15%;
+    }
+    
+}
+
+@media screen and (max-width:600px){
+    header #aboveimg h2{
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+    header #aboveimg h1{
+        font-size: 2.5rem;
+        line-height: 45px;
+    }
+    header #aboveimg button{
+        padding: 12px 22px;       
+    }
+    main #leftside,main #rightside{
+        float: none;
+        width: 100%;
+    }
+}
