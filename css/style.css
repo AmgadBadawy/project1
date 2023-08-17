@@ -388,15 +388,15 @@ footer p a{
 
 @media screen and (max-width:600px){
     header #aboveimg h2{
-        font-size: 1.5rem;
-        line-height: 30px;
+        font-size: 1.2rem;
+        line-height: 25px;
     }
     header #aboveimg h1{
-        font-size: 2.5rem;
-        line-height: 45px;
+        font-size: 2rem;
+        line-height: 40px;
     }
     header #aboveimg button{
-        padding: 12px 22px;       
+        padding: 11px 20px;       
     }
     main #leftside,main #rightside{
         float: none;
